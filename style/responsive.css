@@ -8,5 +8,13 @@
     .nav-titel{
         display: none;
     }
+
+.banner{
+    flex-direction: column;
+}
+
+.threefifty{
+    margin-left: 30px;
+}
     
 }
