@@ -11,7 +11,8 @@
 
 .banner,
 .habit-container,
-.habit-image{
+.habit-image,
+.run-content{
     flex-direction: column;
 }
 .banner-container{
@@ -24,6 +25,22 @@
 
 .habit-image{
     margin-right: 30px;
+}
+
+
+.run-content{
+    margin: 0 auto;
+}
+.run-para{
+    
+    
+    
+}
+
+.run-image img{  
+    width: 390px;
+    height: auto;
+    padding-right: 180px;
 }
     
 }
