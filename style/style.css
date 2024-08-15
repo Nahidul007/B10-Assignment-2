@@ -12,7 +12,6 @@
     
 }
 .nav-content{
-    border: 1px solid rgb(0, 106, 255) ;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -62,7 +61,6 @@
     max-width: 1200px;
     /* background-color:#222222;  */
     margin: 0 auto;
-    border: 1px solid rgb(0, 106, 255) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,3 +154,56 @@
     color: #EFEDE8A6;
 }
 
+
+/* Change habit section stard here */
+
+.habit-container{
+    background-color:#222222;
+}
+
+.habit-content{
+    border: 1px solid blue;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.habit-para{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+.habit-para h2{
+    font-size: 2.9rem;
+    color: white;
+}
+
+.habit-para p{
+    color: #FFFFFF80;
+    margin-top: 10px;
+}
+
+.habit-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-style img{
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.image-style h3{
+     color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.image-style p{
+      color: #FFFFFF80;
+    text-align: center;
+}
