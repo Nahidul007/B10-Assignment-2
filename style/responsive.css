@@ -13,7 +13,9 @@
 .habit-container,
 .habit-image,
 .run-content,
-.run-para{
+.run-para,
+.footer-content,
+.footer-right{
     flex-direction: column;
 }
 .banner-container{
@@ -49,5 +51,6 @@
 .team-para{
     padding-top: 20px;
 }
+
     
 }
