@@ -12,7 +12,8 @@
 .banner,
 .habit-container,
 .habit-image,
-.run-content{
+.run-content,
+.run-para{
     flex-direction: column;
 }
 .banner-container{
@@ -29,18 +30,29 @@
 
 
 .run-content{
-    margin: 0 auto;
-}
-.run-para{
-    
-    
-    
+    /* margin: 0 auto; */
 }
 
+
 .run-image img{  
-    width: 390px;
-    height: auto;
-    padding-right: 180px;
+     /* width: 400px;
+    height: 300px;
+    padding-right: 180px;  */
+    
+
+    width: 400px;
+    object-fit: none;
+    object-position: 65% 27%;
+    padding-right: 150px;
+}
+
+.team-image,
+.team-para{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.team-para{
+    padding-top: 20px;
 }
     
 }
